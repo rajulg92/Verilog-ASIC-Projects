@@ -1,0 +1,239 @@
+$date
+	Wed Oct 12 14:30:39 2016
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	10ps
+$end
+
+$comment Csum: 1 0641fa5bad812af3 $end
+
+
+$scope module floating_adder_tb $end
+$var wire 32 ! sum18 [31:0] $end
+$var reg 32 " a_original18 [31:0] $end
+$var reg 32 # b_original18 [31:0] $end
+$var reg 1 $ clk18 $end
+
+$scope module ft_tb $end
+$var wire 32 " a_original18 [31:0] $end
+$var wire 32 # b_original18 [31:0] $end
+$var wire 1 $ clk18 $end
+$var wire 32 ! sum18 [31:0] $end
+$var reg 1 % sumneg18 $end
+$var reg 1 & sumneg_18 $end
+$var reg 8 ' sumexp18 [7:0] $end
+$var reg 26 ( sumsig18 [25:0] $end
+$var reg 26 ) sumsig_18 [25:0] $end
+$var reg 26 * sumsig2_18 [25:0] $end
+$var reg 26 + sumsig3_18 [25:0] $end
+$var reg 26 , sumsig4_18 [25:0] $end
+$var reg 26 - sumsig5_18 [25:0] $end
+$var reg 26 . sumsig6_18 [25:0] $end
+$var reg 32 / a18 [31:0] $end
+$var reg 32 0 b18 [31:0] $end
+$var reg 26 1 asig18 [25:0] $end
+$var reg 26 2 asig1_18 [25:0] $end
+$var reg 26 3 bsig18 [25:0] $end
+$var reg 26 4 bsig1_18 [25:0] $end
+$var reg 26 5 asig_18 [25:0] $end
+$var reg 26 6 asig2_18 [25:0] $end
+$var reg 26 7 asig3_18 [25:0] $end
+$var reg 26 8 asig4_18 [25:0] $end
+$var reg 26 9 bsig_18 [25:0] $end
+$var reg 26 : bsig2_18 [25:0] $end
+$var reg 26 ; bsig3_18 [25:0] $end
+$var reg 26 < bsig4_18 [25:0] $end
+$var reg 8 = aexp18 [7:0] $end
+$var reg 8 > bexp18 [7:0] $end
+$var reg 1 ? aneg18 $end
+$var reg 1 @ bneg18 $end
+$var reg 8 A diff18 [7:0] $end
+$var reg 8 B diff_18 [7:0] $end
+$var reg 8 C Ea_18 [7:0] $end
+$var reg 8 D Eb_18 [7:0] $end
+$var reg 8 E Ea2_18 [7:0] $end
+$var reg 8 F Eb2_18 [7:0] $end
+$var reg 8 G Ea3_18 [7:0] $end
+$var reg 8 H Ea4_18 [7:0] $end
+$var reg 8 I Ea5_18 [7:0] $end
+$var reg 1 J shift $end
+$var integer 32 K pos18 $end
+$var integer 32 L adj18 $end
+$var integer 32 M i18 $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0?
+0@
+0$
+xJ
+0%
+x&
+bxxxxxxxx E
+bxxxxxxxx G
+bxxxxxxxx H
+bxxxxxxxx I
+bxxxxxxxx C
+bxxxxxxxx F
+bxxxxxxxx D
+b01000011010010000000000000000000 /
+b01000010110010000000000000000000 "
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx L
+b10000110 =
+b00110010000000000000000000 1
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 2
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 6
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 7
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 8
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 5
+b01000010110010000000000000000000 0
+b01000011010010000000000000000000 #
+b10000101 >
+b00011001000000000000000000 3
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 4
+bxxxxxxxxxxxxxxxxxxxxxxxxxx :
+bxxxxxxxxxxxxxxxxxxxxxxxxxx ;
+bxxxxxxxxxxxxxxxxxxxxxxxxxx <
+bxxxxxxxxxxxxxxxxxxxxxxxxxx 9
+b00000001 A
+bxxxxxxxx B
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx M
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx K
+b01000011100101100000000000000000 !
+b10000111 '
+b00100101100000000000000000 (
+bxxxxxxxxxxxxxxxxxxxxxxxxxx *
+bxxxxxxxxxxxxxxxxxxxxxxxxxx +
+bxxxxxxxxxxxxxxxxxxxxxxxxxx ,
+bxxxxxxxxxxxxxxxxxxxxxxxxxx -
+bxxxxxxxxxxxxxxxxxxxxxxxxxx .
+bxxxxxxxxxxxxxxxxxxxxxxxxxx )
+$end
+#500
+1$
+#1000
+0$
+#1500
+b11000010010010000000000000000000 #
+1$
+b01000010110010000000000000000000 /
+b11000010010010000000000000000000 0
+1@
+b10000101 =
+b10000100 >
+b00110010000000000000000000 3
+b11100111000000000000000000 3
+b00110010000000000000000000 (
+b10000100 '
+b00000000000000000000000000010110 K
+b11111111111111111111111111111111 M
+b00000000000000000000000000000001 L
+b01000010010010000000000000000000 !
+#2000
+0$
+#2500
+b11000010010101000000000000000000 "
+b01000010000011000000000000000000 #
+1$
+b11000010010101000000000000000000 /
+b01000010000011000000000000000000 0
+1?
+0@
+b10000100 =
+b00110101000000000000000000 1
+b00100011000000000000000000 3
+b00000000 A
+b11001011000000000000000000 1
+b00100100000000000000000000 (
+1%
+b10000011 '
+b11000001100100000000000000000000 !
+#3000
+0$
+#3500
+b11000011100101100000000000000000 "
+b11000010110001100000000000000000 #
+1$
+b11000011100101100000000000000000 /
+b11000010110001100000000000000000 0
+1@
+b10000111 =
+b10000101 >
+b00100101100000000000000000 1
+b00110001100000000000000000 3
+b00000010 A
+b11110011101000000000000000 3
+b11011010100000000000000000 1
+b00110001111000000000000000 (
+b10000111 '
+b00000000000000000000000000010111 K
+b00000000000000000000000000000000 L
+b11000011110001111000000000000000 !
+#4000
+0$
+#4500
+b00000000000000000000000000000000 "
+b00000000000000000000000000000000 #
+1$
+b00000000000000000000000000000000 /
+b00000000000000000000000000000000 0
+0?
+0@
+b00000000 =
+b00000000 >
+b00000000000000000000000000 1
+b00000000000000000000000000 3
+b00000000 A
+b00000000000000000000000000 (
+0%
+b00000000 '
+b00000000000000000000000000000000 !
+#5000
+0$
+#5500
+b11000011001010110000000000000000 #
+1$
+b11000011001010110000000000000000 /
+1?
+b10000110 =
+b00101010110000000000000000 1
+b10000110 A
+b11010101010000000000000000 1
+b00101010110000000000000000 (
+1%
+b10000110 '
+b11000011001010110000000000000000 !
+#6000
+0$
+#6500
+1$
+#7000
+0$
+#7500
+1$
+#8000
+0$
+#8500
+1$
+#9000
+0$
+#9500
+1$
+#10000
+0$
+#10500
+1$
+#11000
+0$
+#11500
+1$

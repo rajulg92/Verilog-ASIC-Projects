@@ -1,0 +1,116 @@
+0 
+19
++v2k
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -fPIC -O -I/apps/synopsys/I-2014.03-2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-m32 -m32
+-Mobjects= /apps/synopsys/I-2014.03-2/linux/lib/libvirsim.so /apps/synopsys/I-2014.03-2/linux/lib/librterrorinf.so /apps/synopsys/I-2014.03-2/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/apps/synopsys/I-2014.03-2/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/apps/synopsys/I-2014.03-2/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-gen_obj
+-picarchive
+/apps/synopsys/I-2014.03-2/linux/bin/vcs1
+nio2_tb.v
+84
+sysc_uni_pwd=/home/010828818@SJSUAD.SJSU.EDU/Desktop/Rajul_codes/Nios2
+cdk_dir=/apps/cadence/IC50/tools/dfII/local
+XMODIFIERS=@im=none
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session8
+XDG_SESSION_ID=770
+XDG_SESSION_DESKTOP=XFCE
+XDG_SESSION_CLASS=user
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/467944329
+XDG_MENU_PREFIX=xfce-
+XDG_DATA_DIRS=/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=XFCE
+XDG_CONFIG_DIRS=/etc/xdg
+XAUTHORITY=/home/010828818@SJSUAD.SJSU.EDU/.Xauthority
+VTE_VERSION=4402
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/apps/synopsys/I-2014.03-2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+VCSMX_HOME=/apps/synopsys/I-2014.03-2
+USE_NCSU_CDK=
+UNAME=/bin/uname
+TOOL_HOME=/apps/synopsys/I-2014.03-2/linux
+TK_LIBRARY=/apps/synopsys/I-2014.03-2/etc/auxx/tcllib/tk8.4/library
+SYNOPSYS_SIM=/apps/synopsys/2000.12
+SYNOPSYS=/apps/synopsys
+STROOT=/apps/synopsys/TCAD
+STRELEASE=current
+STDB=/home/010828818@SJSUAD.SJSU.EDU/sentaurus
+SSH_AUTH_SOCK=/tmp/ssh-7RQq9E5jUYqx/agent.9979
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=10118
+SNPSLMS_LICENSE_FILE=27000@cadence3.engr.sjsu.edu:/apps/synopsys/license/current-license-key
+SKIP_CDS_DIALOG=
+SFLM_SERVER=innersanctum
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/10155,unix/unix:/tmp/.ICE-unix/10155
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=xim
+PRIMETIME_ROOT=/apps/synopsys/pt2000.11
+OVA_UUM=0
+OSTYPE=linux
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=KEYRING:persistent:467944329
+KDEDIRS=/usr
+IUS=/apps/cadence/INCISIV141
+ISEROOT=/apps/synopsys/TCAD/
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IC=/apps/cadence/IC50
+HSP_HOME=/apps/synopsys/HSPICE/hspice
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GTK_IM_MODULE=gtk-im-context-simple
+GROUP=domain users
+GLADE_PIXMAP_PATH=:/usr/share/glade3/pixmaps
+GLADE_MODULE_PATH=:/usr/lib64/glade3/modules
+GLADE_CATALOG_PATH=:/usr/share/glade3/catalogs
+DESKTOP_SESSION=/usr/share/xsessions/xfce
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/467944329/bus
+CVS_RSH=ssh
+COLORTERM=truecolor
+CLS_CSD_COMPATIBILITY_LOCKING=NO
+CLS_CDSD_COMPATIBILITY_LOCKING=NO
+CDS_VHDL=/apps/cadence/INCISIV141/tools/leapfrog
+CDS_SITE=/apps/cadence/IC50/tools/dfII/local
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@innersanctum.engr.sjsu.edu:/apps/cadence/license-current
+CDSLMD_LICENSE_FILE=5280@innersanctum.engr.sjsu.edu:/apps/cadence/license-current
+CDS=/apps/cadence
+BASH_FUNC_scl()=() {  local CMD=$1;_ if [ "$CMD" = "load" -o "$CMD" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+ARCH=linux
+0
+2
+1477434432 nios2.v
+1477432572 nio2_tb.v
+4
+0 
+1410372690 /apps/synopsys/I-2014.03-2/linux/lib/libvirsim.so
+1410372633 /apps/synopsys/I-2014.03-2/linux/lib/librterrorinf.so
+1410372654 /apps/synopsys/I-2014.03-2/linux/lib/libsnpsmalloc.so
+1477434439 simv.daidir
